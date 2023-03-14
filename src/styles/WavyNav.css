@@ -1,0 +1,175 @@
+.wave-div > svg {
+  position: absolute;
+  top: 0px;
+  height: 600px;
+}
+
+.learn_more_button {
+  /* cursor: pointer;
+  margin-top: 25px;
+  display: flex !important;
+  padding: 10px 30px !important;
+  background: linear-gradient(
+    45deg,
+    #fe60a1 0%,
+    #ff8765 51%,
+    #fe60a1 100%
+  ) !important;
+  font-family: inherit !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: background 1s !important;
+  place-content: center !important;
+  border-radius: 70px !important;
+  font-size: 0.575em !important;
+  letter-spacing: 1.7px !important;
+  text-transform: uppercase !important;
+  font-weight: 600 !important; */
+
+  /* Ahmad's code */
+  display: flex !important;
+  margin-top: 20px !important;
+  padding: 15px 30px !important;
+  background: linear-gradient(45deg, #fe60a1, transparent) #ff8765 !important;
+  font-family: inherit !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: background 1s !important;
+  place-content: center !important;
+  border-radius: 70px !important;
+  font-size: 0.695em !important;
+  letter-spacing: 1.7px !important;
+  text-transform: uppercase !important;
+  font-weight: 800 !important;
+}
+
+
+.learn_more_button:hover,
+.learn_more_button:focus {
+  /* background: linear-gradient(
+    45deg,
+    #fe60a1 0%,
+    #ff8765 51%,
+    #fe60a1 100%
+  ) !important;
+  color: #fff !important;
+  transition: background 1s !important; */
+
+  
+  /* Ahmad's code */
+  background: linear-gradient(45deg, #ff8765, transparent) #fe60a1 !important;
+  color: #fff !important;
+  transition: background 1s !important;
+}
+
+.learn_more_button:hover,
+.learn_more_button:focus,
+.learn_more_button:active {
+  transition: background 1s ease-in-out !important;
+}
+
+
+
+.custom_contact_button {
+  display: flex !important;
+  padding: 10px 30px !important;
+  background: linear-gradient(45deg, #00c9fd, transparent) #81ee8e !important;
+  font-family: inherit !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: background 1s !important;
+  place-content: center !important;
+  border-radius: 70px !important;
+  font-size: 0.575em !important;
+  letter-spacing: 1.7px !important;
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+}
+.custom_contact_button:hover,
+.custom_contact_button:focus {
+  background: linear-gradient(45deg, #81ee8e, transparent) #00c9fd !important;
+  color: #fff !important;
+  transition: background 1s !important;
+}
+
+.custom_contact_button:hover,
+.custom_contact_button:focus,
+.custom_contact_button:active {
+  transition: background 1s ease-in-out !important;
+}
+
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.image-container {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: moveImage 30s infinite linear;
+  /* background-repeat: repeat-x; */
+}
+
+@keyframes moveImage {
+  from {
+    transform: translateX(0);
+    background-repeat: repeat-x;
+  }
+  to {
+    transform: translateX(100%);
+    background-repeat: repeat-x;
+  }
+}
+
+.carousel_show {
+  position: absolute;
+  z-index: 4;
+  color: white;
+  top: 100px;
+  left: 10%;
+  right: 10%;
+}
+
+.carousel-main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.carousel-text-div {
+  color: white;
+  width: 50%;
+  text-align: left;
+  padding: 0px 50px;
+}
+
+.carousel-images-div {
+  width: 50%;
+  height: 70vh;
+}
+
+.control-arrow {
+  background: rgba(0, 0, 0, 0.605) !important;
+  width: 40px !important;
+  height: 50px !important;
+  margin: 20% 0% !important;
+}
+
+.control-arrow:hover {
+  background: rgb(255 255 255 / 39%) !important;
+}
+
+.navbar {
+  z-index: 4;
+}

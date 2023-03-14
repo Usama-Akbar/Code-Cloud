@@ -1,0 +1,26 @@
+.sectiontwo-main-div{
+    
+}
+
+.sectiontwo-heading{
+    display: flex !important;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.sectiontwo-heading > h1{
+    color: #1687c8;
+    padding: 40px 300px;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.sectiontwo-heading > p{
+    padding: 10px 280px;
+    font-size: normal;
+    text-align: center;
+}
+

@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.fa {
+  text-align: center;
+  color: #6c6c6c;
+  border: 1px solid #4e4e4e;
+  padding: 6px;
+  font-size: 20px;
+  width: 34px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #1d1d1d;
+}
+
+.fa-facebook {
+  text-align: center;
+  color: #6c6c6c;
+  border: 1px solid #4e4e4e;
+  padding: 6px;
+  font-size: 20px;
+  width: 34px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #1d1d1d;
+}
+.fa-facebook:hover {
+  background: #3b5998;
+  border-color: #3b5998;
+  color: white;
+  transition: 0.1s;
+}
+.fa-linkedin:hover {
+  background: #007bb6;
+  border-color: #007bb6;
+  color: white;
+  transition: 0.1s;
+}
+.fa-github:hover {
+  background: black;
+  border-color: black;
+  color: white;
+  transition: 0.1s;
+}
+.fa-instagram:hover {
+  background: #e4405f;
+  border-color: #e4405f;
+  color: white;
+  transition: 0.1s;
+}
+.fa-twitter:hover {
+  background: #00aced;
+  border-color: #00aced;
+  color: white;
+  transition: 0.1s;
+}
+.fa-pinterest:hover {
+  background: #cb2027;
+  border-color: #cb2027;
+  color: white;
+  transition: 0.1s;
+}
+.fa-youtube:hover {
+  background: #b00;
+  border-color: #b00;
+  color: white;
+  transition: 0.1s;
+}
+.fa-dribbble:hover {
+  background: #ea4c89;
+  border-color: #ea4c89;
+  color: white;
+  transition: 0.1s;
+}
+.fa-flickr:hover {
+  background: #ff0084;
+  border-color: #ff0084;
+  color: white;
+  transition: 0.1s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

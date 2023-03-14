@@ -1,0 +1,67 @@
+.background_checking {
+  display: flex;
+  padding: 0.875em 2em;
+  background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
+  font-family: inherit;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 1s;
+  place-content: center;
+}
+.background_checking:hover,
+.background_checking:focus {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+/* .gradient-hover-effect {
+    
+  }
+  .gradient-hover-effect:hover, .gradient-hover-effect:focus {
+    
+  } */
+
+.custom_bg {
+  /* Set the background image and color */
+  background-image: url("../assets/clouds-1.png");
+  background-color: #444cce;
+  /* background-position: center; */
+
+  /* Set the height and z-index */
+  height: 53.05vh;
+  z-index: -1;
+
+  /* Create an animation for the background image */
+  animation-name: move-background;
+  animation-duration: 35s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+
+  /* Create an animation for the background color */
+  animation-name: change-color;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move-background {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+
+@keyframes change-color {
+  0% {
+    background-color: #444cce; /* Start with the initial color */
+  }
+  50% {
+    background-color: #7831bf; /* Transition to a slightly different color */
+  }
+  100% {
+    background-color: #444cce; /* Return to the initial color */
+  }
+}

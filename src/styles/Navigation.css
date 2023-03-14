@@ -1,0 +1,111 @@
+.navbar-brand {
+  color: white !important;
+}
+.custom_contact_button {
+  display: flex !important;
+  padding: 10px 30px !important;
+  background: linear-gradient(45deg, #00c9fd, transparent) #81ee8e !important;
+  font-family: inherit !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: background 1s !important;
+  place-content: center !important;
+  border-radius: 70px !important;
+  font-size: 0.575em !important;
+  letter-spacing: 1.7px !important;
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+}
+.custom_contact_button:hover,
+.custom_contact_button:focus {
+  background: linear-gradient(45deg, #81ee8e, transparent) #00c9fd !important;
+  color: #fff !important;
+  transition: background 1s !important;
+}
+
+.custom_contact_button:hover,
+.custom_contact_button:focus,
+.custom_contact_button:active {
+  transition: background 1s ease-in-out !important;
+}
+.nav-link {
+  font-weight: normal !important;
+  color: rgba(0, 0, 0, 0.55) !important;
+  font-size: 14px !important;
+  padding: 0px 15px 0px 15px !important;
+  color: white !important;
+}
+.nav-link:hover {
+  color: #1687c8 !important;
+}
+.dropdown-item {
+  color: #666 !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+  font-weight: normal !important;
+  text-align: left !important;
+  margin: 0px !important;
+  vertical-align: top !important;
+}
+.dropdown-item:hover {
+  background-color: white !important;
+  color: #1687c8 !important;
+  font-size: 14px !important;
+}
+.dropdown-menu {
+  margin-top: 10px !important;
+  border-radius: 0px !important;
+}
+.navbar {
+  padding-top: 1.9825rem !important;
+  z-index: 100 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.custom_bg_image {
+  background-image: url("../assets/clouds-1.png");
+  height: 53.05vh;
+  z-index: -50;
+  /* Create an animation for the background image */
+  animation-name: move-background;
+  animation-duration: 35s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes move-background {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+
+.custom_bg_color {
+  background-color: #444cce;
+  z-index: -10;
+  height: 80vh;
+}
+
+/* Create an animation for the background color */
+@keyframes change-color {
+  0% {
+    background-color: #444cce; /* Start with the initial color */
+  }
+  50% {
+    background-color: #7831bf; /* Transition to a slightly different color */
+  }
+  100% {
+    background-color: #444cce; /* Return to the initial color */
+  }
+}
+
+/* Apply the animation to the body element */
+.custom_bg_color {
+  animation-name: change-color;
+  animation-duration: 5s; /* Set the duration of the animation */
+  animation-iteration-count: infinite; /* Make the animation repeat indefinitely */
+}

@@ -1,0 +1,129 @@
+.ServiceSection-main-div{
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.ServiceBox{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding: 10px;
+    min-height: 310px;
+    cursor: pointer;
+}
+
+.service-icon{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    font-size: 32px;
+    color: #fff !important;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.service-icon::before{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    border: 4px solid #fff;
+    border-right-color: transparent;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+
+.service-icon::after{
+    content: "";
+    width: 2px;
+    height: 30px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.fa{
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    padding: 6px;
+    font-size: 20px;
+    width: 34px;
+    text-decoration: none;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.ServiceBox:hover > .service-icon::before{
+    transform: rotate(180deg);
+}
+
+.websitedevelopment{
+    background: #4dc8e9;
+}
+
+.websitedevelopment::after{
+    background: #4dc8e9;
+}
+
+.appdevelopment{
+    background: #f1592a;
+}
+
+.appdevelopment::after{
+    background: #f1592a;
+}
+
+.graphicdesign{
+    background: #7ac142;
+}
+
+.graphicdesign::after{
+    background: #7ac142;
+}
+
+.softwaredevelopment{
+    background: #ec008c;
+}
+
+.softwaredevelopment::after{
+    background: #ec008c;
+}
+
+.seobybestitcompany{
+    background: #92278f;
+}
+
+.seobybestitcompany::after{
+    background: #92278f;
+}
+
+.productdevelopment{
+    background: #fcb040;
+}
+
+.productdevelopment::after{
+    background: #fcb040;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #072458;
+    margin: 0;
+    font-family: 'open sans', sans-serif;
+}
+
+.description{
+    font-size: 16px;
+    color: #6f6f6f;
+    line-height: 27px;
+    margin: 10px 0 0 0;
+    text-align: justify;
+}

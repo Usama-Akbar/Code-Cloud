@@ -1,0 +1,69 @@
+.footer-wrap {
+  background: #1d1d1d;
+  padding: 20px;
+  margin-top: 60px;
+}
+.textAlign {
+  text-align: center;
+}
+.maps {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 25%;
+}
+.hor-line {
+  color: #878787;
+}
+.map-name {
+  cursor: pointer;
+}
+.social-icon {
+  position: absolute;
+  top: 838px;
+  left: 510px;
+}
+.download-profile-btn {
+  color: #04a3cf;
+  border-color: #04a3cf;
+  padding: 12px 20px;
+  font-size: 14px;
+  text-transform: none;
+  background: none;
+}
+.btn-div {
+  margin: 60px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-bottom-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+  padding: 0px 30px;
+}
+
+.social-icons-settings{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.social-icons-settings > a{
+  display: flex;
+  margin: 0px 10px;
+  background-color: #1d1d1d;
+  border: 1px solid #6c6c6c;
+  border-radius: 40px;
+}
+
+.social-icons-settings > a > img{
+  width: 30px;
+  height: 30px;
+}
